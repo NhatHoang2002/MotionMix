@@ -27,7 +27,7 @@ python -m torch.distributed.launch --nproc_per_node=2 -m tools.train \
 python -m torch.distributed.launch --nproc_per_node=2 -m tools.train \
     --name motionmix_ml3d_2gpu_lower20_upper60_ratio50_pivot60 \
     --batch_size 128 --times 25 --num_epochs 100 --dataset_name t2m \
-    --t_noise_lower 20 --t_noise_upper 60 --noisy_ratio 0.5 --use_unlabeled_clean \
+    --t_noise_lower 20 --t_noise_upper 60 --t_noise_pivot 60 --noisy_ratio 0.5 --use_unlabeled_clean \
     --distributed
 ```
 
@@ -45,7 +45,7 @@ python -m tools.train \
 python -m tools.train \
     --name motionmix_ml3d_2gpu_lower20_upper60_ratio50_pivot60 \
     --batch_size 128 --times 25 --num_epochs 100 --dataset_name t2m \
-    --t_noise_lower 20 --t_noise_upper 60 --noisy_ratio 0.5 --use_unlabeled_clean \
+    --t_noise_lower 20 --t_noise_upper 60 --t_noise_pivot 60 --noisy_ratio 0.5 --use_unlabeled_clean \
     --data_parallel \
     --gpu_id 0 1
 ```
@@ -63,7 +63,7 @@ python -m tools.train \
 python -m tools.train \
     --name motionmix_ml3d_1gpu_lower20_upper60_ratio50_pivot60 \
     --batch_size 128 --times 25 --num_epochs 100 --dataset_name t2m \
-    --t_noise_lower 20 --t_noise_upper 60 --noisy_ratio 0.5 --use_unlabeled_clean \
+    --t_noise_lower 20 --t_noise_upper 60 --t_noise_pivot 60 --noisy_ratio 0.5 --use_unlabeled_clean \
     --gpu_id 0
 ```
 
