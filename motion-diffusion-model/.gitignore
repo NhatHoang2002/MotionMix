@@ -1,0 +1,10 @@
+
+__pycache__
+body_models/**
+save/**
+dataset/HumanML3D
+dataset/HumanAct12Poses
+dataset/KIT
+glove/**
+t2m/**
+kit/**
