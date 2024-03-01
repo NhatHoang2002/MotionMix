@@ -32,16 +32,15 @@ Please refer to our [project page](https://nhathoang2002.github.io/MotionMix-pag
 
 ## Updates
 
-
-[TBC] Release training and inference code for the model MDM (text-to-motion, action-to-motion).
-
-[TBC] Release training and inference code for the model EDGE (music-to-dance).
-
-[02/2024] Release training and inference code for the model MotionDiffuse (text-to-motion).
+[02/2024] Release training and inference code for the model MDM (text-to-motion, action-to-motion),  MotionDiffuse (text-to-motion), and EDGE (music-to-dance).
 
 [01/2024] [Paper](https://arxiv.org/abs/2401.11115) uploaded to arXiv.
 
 [12/2023] Paper accepted at **AAAI-24 Main Track**! 🎉
+
+## Development
+
+This is a research implementation and, in general, will not be regularly updated or maintained long after release.
 
 ## Citation
 
